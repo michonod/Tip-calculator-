@@ -1,0 +1,101 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.formContainer input::-webkit-outer-spin-button,
+.formContainer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
+
+.calcContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(49, 49, 49);
+  color: white;
+  height: 550px;
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calcContainer h1 {
+  background-color: rgb(11, 115, 235);
+  font-size: 18px;
+  width: 100%;
+  text-align: start;
+  padding: 15px 20px;
+}
+
+.calcContainer label {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 90%;
+}
+
+.formContainer input,
+.formContainer select {
+  padding: 15px;
+  width: 100%;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: rgb(74, 78, 74);
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.formContainer select > option {
+  padding: 20px;
+}
+
+.btnContainer button {
+  padding: 15px 60px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+}
+.btnContainer button:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em grey;
+  transform: translateY(-0.25em);
+}
+
+.btnContainer .buttonReset {
+  background-color: rgb(250, 28, 95);
+}
+
+.btnContainer .buttonCalc {
+  background-color: rgb(11, 115, 235);
+}
+
+.tipContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.tipContainer h4 {
+  font-size: 50px;
+}
